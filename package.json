@@ -1,0 +1,25 @@
+{
+  "name": "js-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/*.html --open",
+    "build": "parcel build src/*.html --public-url /js-todolist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktoriia-tsytsura/js-todolist.git"
+  },
+  "keywords": [],
+  "author": "Viktoriia Sholom <sholomviktoriia@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  }
+}
